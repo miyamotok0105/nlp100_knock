@@ -1,4 +1,5 @@
 // Char1.cpp
+//http://www7b.biglobe.ne.jp/~robe/cpphtml/html01/cpp01022.html
 #include <iostream>
 using namespace std;
 
