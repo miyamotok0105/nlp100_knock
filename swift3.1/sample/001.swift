@@ -4,6 +4,8 @@
 
 //map:全要素に適用----------
 
+print("map-------------------->")
+
 //「配列」map
 let array = [1,2,3,4,5]
 let newArray = array.map { $0 * 5 }
@@ -29,15 +31,23 @@ print(fahrenheit)
 
 //filter:要素を絞り込む----------
 
+print("fileter-------------------->")
 //filter
 let array2 = [1,2,3,4,5]
 let newArray2 = array2.filter { $0 == 5 }
 print(newArray2)
 
+let array10 = [1,2,3,4,5]
+let array10_2 = [1,2,3]
+let newArray10 = array10.filter { array10_2.contains($0) }
+print(newArray10)
+
 
 //reduce:要素を１つにまとめる----------
 //第一引数：初期値
 //第二引数：要素に対して行う処理
+
+print("reduce-------------------->")
 
 //「配列」reduce
 let array3 = [1,2,3,4,5]
