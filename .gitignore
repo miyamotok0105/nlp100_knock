@@ -1,5 +1,5 @@
 ### https://raw.github.com/github/gitignore/055194192edb9ace9bedf5e6bf6e49f6ab824c6e/python.gitignore
-
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -183,5 +183,57 @@ fastlane/test_output
 
 *.class
 *.log
+*.out
+
+### https://raw.github.com/github/gitignore/055194192edb9ace9bedf5e6bf6e49f6ab824c6e/kotlin.gitignore
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+### https://raw.github.com/github/gitignore/055194192edb9ace9bedf5e6bf6e49f6ab824c6e/java.gitignore
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
 
