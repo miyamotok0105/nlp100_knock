@@ -1,0 +1,14 @@
+//07. テンプレートによる文生成
+//引数x, y, zを受け取り「x時のyはz」という文字列を返す関数を実装せよ．
+//さらに，x=12, y="気温", z=22.4として，実行結果を確認せよ．
+
+//コマンドラインでは使えない
+// import XCTest
+
+func getText(x: Int, y: AnyObject, z: AnyObject) -> String {
+	return "\(x)時の\(y)は\(z)"
+}
+
+print(getText(x: 12, y: "気温" as AnyObject, z: 22.4 as AnyObject))
+
+// print(XCTAssertEqual(getText(x: 12, y: "気温" as AnyObject, z: 22.4 as AnyObject), "12時の気温は22.4"))
