@@ -237,3 +237,9 @@ hs_err_pid*
 hs_err_pid*
 
 
+### https://raw.github.com/github/gitignore/6326792165078fc996146072cde72d42409191f0/scala.gitignore
+
+*.class
+*.log
+
+

@@ -20,3 +20,21 @@ https://swiftenv.fuller.li/en/latest/
 https://github.com/yyYank/kotlin-rev-solution/blob/master/docs/kotlin-install.md
 
 
+## scalaの環境
+	
+	sdk list scala
+	scala -version
+	brew install sbt
+	sbt --version
+	mkdir -p SampleProject/src/main/scala
+	mkdir -p SampleProject/src/main/java
+	cd SampleProject
+	touch Build.sbt
+	Build.sbtの中身を書く
+	touch src/main/scala/HelloWorldScala.scala
+	中身を書く
+	sbt compile
+	sbt run
+	scala src/main/scala/HelloWorldScala.scala
+
+	
