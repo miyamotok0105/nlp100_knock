@@ -1,6 +1,8 @@
 import scala.annotation.tailrec
 import org.scalatest.FunSpec
 
+//https://github.com/NomadBlacky/scala_samples/tree/master/src/test/scala/org/nomadblacky/scala/samples/nlp100
+
 override def suiteName: String = "言語処理100本ノック 第1章: 準備運動"
 
 it("00. 文字列の逆順") {
