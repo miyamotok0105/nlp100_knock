@@ -37,4 +37,10 @@ https://github.com/yyYank/kotlin-rev-solution/blob/master/docs/kotlin-install.md
 	sbt run
 	scala src/main/scala/HelloWorldScala.scala
 
-	
+
+## cshapeの環境
+
+    brew install mono
+    mono --version
+
+    
