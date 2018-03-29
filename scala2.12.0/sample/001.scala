@@ -1,4 +1,4 @@
-
+//scala 001.scala
 //参考
 //https://qiita.com/kitaro_tn/items/6d5336eaf5538404ea61
 
