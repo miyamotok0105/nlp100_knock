@@ -114,5 +114,7 @@ https://github.com/playframework/play-scala-seed.g8
 
 ここも参考になる    
 https://yoshinorin.net/2017/03/22/begin-scala-with-play-intellij/    
+ドワンゴさん資料    
+https://dwango.github.io/scala_text/IDE.html    
 
 
